@@ -16,6 +16,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
               <li><a href="#">首页</a></li>
+              <li class="arctypenav"><a href="${base}/arctype/list">栏目管理</a></li>
 		      <li class="usernav"><a href="${base}/user/list">用户管理</a></li>
 		      <li class="rolenav"><a href="${base}/role/list">角色管理</a></li>
 		      <li class="authoritynav"><a href="${base}/authority/list">权限管理</a></li>
