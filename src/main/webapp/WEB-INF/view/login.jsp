@@ -16,10 +16,15 @@
 	<div class="container">
 		<form action="${base}/user/login" method="post"  class="form-signin" role="form">
 			 <h2 class="form-signin-heading">登录 ${msg}</h2>
+			 <div class="form-group">
 			 <input type="text" class="form-control" name="name" value="" placeholder="账号">
+			 </div><div class="form-group">
 			 <input type="text" class="form-control" name="pwd" value="" placeholder="姓名">
+			 </div><div class="form-group">
 			 <input type="text" class="form-control" name="code" value="" placeholder="验证码">
+			 </div><div class="form-group">
 			 <button type="submit" class="btn btn-lg btn-primary btn-block" >登录</button>
+			 </div>
 		</form>
 	</div>
 
