@@ -77,5 +77,10 @@ public class ArctypeWeb implements IWeb<Arctype> {
 	public @ResponseBody List<ItemTree> tree(){
 		return arctypeService.treeItemList();
 	}
+	
+	@RequestMapping("/json/{id}")
+	public @ResponseBody Arctype json(@PathVariable Long id){
+		return arctypeService.get(id);
+	}
 
 }
