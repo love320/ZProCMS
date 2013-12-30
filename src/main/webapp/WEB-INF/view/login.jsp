@@ -21,8 +21,8 @@
 			 </div><div class="form-group">
 			 <input type="text" class="form-control" name="pwd" value="" placeholder="姓名">
 			 </div><div class="form-group">
-			 <input type="text" class="form-control" name="code" value="" placeholder="验证码">
-			 </div><div class="form-group">
+			 <!-- <input type="text" class="form-control" name="code" value="" placeholder="验证码">
+			 </div><div class="form-group"> -->
 			 <button type="submit" class="btn btn-lg btn-primary btn-block" >登录</button>
 			 </div>
 		</form>
